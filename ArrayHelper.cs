@@ -7,7 +7,7 @@ namespace PadawansTask5
         public static string CheckIfSymmetric(int[] source)
         {
             if (source == null)
-                throw new ArgumentNullException;
+                throw new ArgumentNullException();
             // put your code here
             //throw new NotImplementedException();
             for (int i = 0; i < source.Length/2; i++)
